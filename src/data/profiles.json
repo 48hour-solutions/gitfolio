@@ -1,0 +1,570 @@
+{
+  "ghosttypes": {
+    "type": "success",
+    "username": "GhostTypes",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/106415648?v=4",
+    "profileSummary": "Highly motivated developer experienced in API development, reverse engineering, and automation, primarily focused on hardware integration and 3D printing technologies. Proficient in C#, TypeScript, Python, Java, and JavaScript, with 338 commits across 17 public repositories. Notable projects include ff-5mp-api, cloudscraper-server, and pokehelper, reflecting a strong interest in FlashForge printer technology and game modification. Contributions have received 22 stars and 4 forks, showcasing valuable and reusable work. As an active member of organizations like Parallel-7, Orbital-8, and Automotive-9, they demonstrate a collaborative approach to development.",
+    "keySkills": [
+      "API Development",
+      "3D Printer Software",
+      "Reverse Engineering",
+      "Automation Tools"
+    ],
+    "languageInsights": [
+      {
+        "insight": "Demonstrates proficiency in C# through the creation of APIs, debugging tools, and printer control software.",
+        "language": "C#"
+      },
+      {
+        "insight": "Shows versatility in TypeScript by developing cross-platform APIs and web applications.",
+        "language": "TypeScript"
+      },
+      {
+        "insight": "Proficient in Python, demonstrated through API development, proxy servers, and game modification tools.",
+        "language": "Python"
+      },
+      {
+        "insight": "Experience with Java, shown by development of APIs for FlashForge printers.",
+        "language": "Java"
+      },
+      {
+        "insight": "Skilled in JavaScript, evidenced by the creation of web applications and cross-platform APIs.",
+        "language": "JavaScript"
+      }
+    ],
+    "languageSummary": "A versatile developer proficient in C#, TypeScript, Python, Java, and JavaScript. They have demonstrated the ability to create a range of applications, including APIs, printer control software, web applications, and automation tools, showcasing a strong aptitude for cross-platform development and hardware integration.",
+    "developerScore": 62,
+    "scoreBreakdown": {
+      "commitActivity": {
+        "reasoning": "With 338 commits, the developer displays a consistent level of activity and commitment to their projects.",
+        "value": 70
+      },
+      "communityInfluence": {
+        "reasoning": "Membership in organizations such as Parallel-7, Orbital-8, and Automotive-9 indicates a collaborative spirit and engagement with team-based projects.",
+        "value": 65
+      },
+      "languageDiversity": {
+        "reasoning": "Proficiency in C#, TypeScript, Python, Java, and JavaScript demonstrates a strong command of multiple popular and relevant languages, enabling versatility in project selection and implementation.",
+        "value": 75
+      },
+      "repositoryImpact": {
+        "reasoning": "With 22 stars and 4 forks across their repositories, this developer has demonstrated a clear ability to create projects that are both valued and built upon by the community.",
+        "value": 40
+      }
+    },
+    "stats": {
+      "commits": 338,
+      "repos": 17,
+      "stars": 22,
+      "forks": 4
+    },
+    "topRepos": [
+      {
+        "name": "ff-5mp-api",
+        "description": "FlashForge 5m (Pro) Stock Firmware API",
+        "stars": 8,
+        "forks": 1,
+        "url": "https://github.com/GhostTypes/ff-5mp-api"
+      },
+      {
+        "name": "cloudscraper-server",
+        "description": "Basic local proxy server for cloudscraper, made for use in my other projects",
+        "stars": 7,
+        "forks": 1,
+        "url": "https://github.com/GhostTypes/cloudscraper-server"
+      },
+      {
+        "name": "pokehelper",
+        "description": "pokemon go bot for android",
+        "stars": 3,
+        "forks": 0,
+        "url": "https://github.com/GhostTypes/pokehelper"
+      },
+      {
+        "name": "ff-5mp-klipper-profiles",
+        "description": "Macros, configs, etc for the AD5M Pro running Klipper",
+        "stars": 2,
+        "forks": 0,
+        "url": "https://github.com/GhostTypes/ff-5mp-klipper-profiles"
+      },
+      {
+        "name": "ff-5mp-profiles",
+        "description": "Configuration & Filament Profiles for the FlashForge 5M (Pro)",
+        "stars": 2,
+        "forks": 0,
+        "url": "https://github.com/GhostTypes/ff-5mp-profiles"
+      }
+    ],
+    "organizations": [
+      {
+        "login": "Parallel-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/194441719?v=4",
+        "description": "Innovative Software Development"
+      },
+      {
+        "login": "Orbital-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/197525212?v=4",
+        "description": "Blockchain Development"
+      },
+      {
+        "login": "Automotive-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/215300526?v=4",
+        "description": null
+      }
+    ]
+  },
+  "minegame159": {
+    "type": "success",
+    "username": "MineGame159",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/25082624?v=4",
+    "profileSummary": "Highly prolific developer with a strong focus on game development and tooling, showcased through 37,299 commits across 25 public repositories. Proficient in C#, Beef, Go, Java, and Rust, demonstrated by contributions to projects like the Minecraft client, Meteorite, and the general-purpose language, Fireball. As an active member of MeteorDevelopment, MineGame159 demonstrates a commitment to teamwork and community-driven development. Proven ability to create impactful projects, evidenced by 107 stars and 20 forks received on public repositories.",
+    "keySkills": [
+      "Game Development",
+      "Graphics Rendering",
+      "Language Tooling",
+      "Cross-Platform Development"
+    ],
+    "languageInsights": [
+      {
+        "insight": "Demonstrates a strong ability to craft game clients and rendering engines.",
+        "language": "C#"
+      },
+      {
+        "insight": "Proficient in creating high-performance applications and tools, as exemplified by contributions to projects like the Minecraft client, Meteorite.",
+        "language": "Beef"
+      },
+      {
+        "insight": "Experienced in building general-purpose programming languages and associated tools.",
+        "language": "Go"
+      },
+      {
+        "insight": "Capable of developing game frameworks and scripting languages.",
+        "language": "Java"
+      },
+      {
+        "insight": "Demonstrated ability in modern systems programming and creating performance-critical applications.",
+        "language": "Rust"
+      }
+    ],
+    "languageSummary": "MineGame159 is a versatile developer with expertise in C#, Beef, Go, Java, and Rust. This breadth of knowledge allows them to tackle a wide range of projects, from game development and rendering engines to general-purpose programming languages and high-performance applications.",
+    "developerScore": 76,
+    "scoreBreakdown": {
+      "commitActivity": {
+        "reasoning": "With 37,299 commits, this developer has demonstrated a consistent and substantial commitment to their projects, indicating a strong work ethic and dedication.",
+        "value": 95
+      },
+      "communityInfluence": {
+        "reasoning": "Membership in the MeteorDevelopment organization showcases a collaborative spirit and engagement within a development community.",
+        "value": 70
+      },
+      "languageDiversity": {
+        "reasoning": "Experience with multiple languages including C#, Beef, Go, Java and Rust demonstrates a broad skillset and adaptability to different project requirements.",
+        "value": 80
+      },
+      "repositoryImpact": {
+        "reasoning": "With 107 stars and 20 forks across their repositories, this developer has demonstrated a clear ability to create projects that are both valued and built upon by the community.",
+        "value": 60
+      }
+    },
+    "stats": {
+      "commits": 37299,
+      "repos": 25,
+      "stars": 107,
+      "forks": 20
+    },
+    "topRepos": [
+      {
+        "name": "meteorite",
+        "description": "A Minecraft client written in Beef.",
+        "stars": 20,
+        "forks": 1,
+        "url": "https://github.com/MineGame159/meteorite"
+      },
+      {
+        "name": "shard",
+        "description": "Collection of useful mini modules for Lua / Love2D",
+        "stars": 20,
+        "forks": 1,
+        "url": "https://github.com/MineGame159/shard"
+      },
+      {
+        "name": "opengl-beef",
+        "description": "OpenGL loader for Beef",
+        "stars": 17,
+        "forks": 1,
+        "url": "https://github.com/MineGame159/opengl-beef"
+      },
+      {
+        "name": "glfw-beef",
+        "description": "Beef wrapper library for GLFW",
+        "stars": 15,
+        "forks": 6,
+        "url": "https://github.com/MineGame159/glfw-beef"
+      },
+      {
+        "name": "fireball",
+        "description": "General-purpose programming language that compiles to efficient native binaries.",
+        "stars": 9,
+        "forks": 2,
+        "url": "https://github.com/MineGame159/fireball"
+      }
+    ],
+    "organizations": [
+      {
+        "login": "MeteorDevelopment",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73897938?v=4",
+        "description": "Based minecraft utility mod and others"
+      }
+    ]
+  },
+  "racoondog": {
+    "type": "success",
+    "username": "RacoonDog",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/32882447?v=4",
+    "profileSummary": "Dedicated developer focused on Minecraft modding and client customization, with 3,183 commits across 32 public repositories. Proficient in Java and Python, and as an active member of AstraeaDevelopment, RacoonDog has demonstrated a commitment to teamwork and community-driven development. Noteworthy projects include Tokyo-Client and Electron, which have garnered significant attention and forks, indicating a strong ability to create impactful and valuable tools.",
+    "keySkills": [
+      "Minecraft Modding",
+      "Game Modification",
+      "Client Customization",
+      "Software Utilities"
+    ],
+    "languageInsights": [
+      {
+        "insight": "Demonstrates considerable experience in Java by developing a wide range of Minecraft mods and utilities.",
+        "language": "Java"
+      },
+      {
+        "insight": "Capable in Python, creating tools for file compression and client enhancements.",
+        "language": "Python"
+      }
+    ],
+    "languageSummary": "RacoonDog demonstrates proficiency in both Java and Python, utilizing these languages to create Minecraft mods and utility tools. Their Java projects showcase a deep understanding of game modification, while their Python scripts highlight their ability to develop useful software utilities.",
+    "developerScore": 78,
+    "scoreBreakdown": {
+      "commitActivity": {
+        "reasoning": "With 3,183 commits, this developer shows a strong dedication to consistent project work and iterative improvement.",
+        "value": 85
+      },
+      "communityInfluence": {
+        "reasoning": "Membership in AstraeaDevelopment indicates a willingness to collaborate and contribute to team projects.",
+        "value": 65
+      },
+      "languageDiversity": {
+        "reasoning": "The developer utilizes Java and Python, demonstrating versatility in different programming paradigms and problem domains.",
+        "value": 70
+      },
+      "repositoryImpact": {
+        "reasoning": "With 94 stars and 19 forks across their repositories, this developer has demonstrated a clear ability to create projects that are both valued and built upon by the community.",
+        "value": 90
+      }
+    },
+    "stats": {
+      "commits": 3183,
+      "repos": 32,
+      "stars": 94,
+      "forks": 19
+    },
+    "topRepos": [
+      {
+        "name": "Tokyo-Client",
+        "description": "Anarchy tool of the future.",
+        "stars": 37,
+        "forks": 6,
+        "url": "https://github.com/RacoonDog/Tokyo-Client"
+      },
+      {
+        "name": "Electron",
+        "description": "Meteor Client Performance Optimizations",
+        "stars": 15,
+        "forks": 1,
+        "url": "https://github.com/RacoonDog/Electron"
+      },
+      {
+        "name": "bidoof-meteor",
+        "description": "Bidoof.",
+        "stars": 7,
+        "forks": 0,
+        "url": "https://github.com/RacoonDog/bidoof-meteor"
+      },
+      {
+        "name": "gradle-validator",
+        "description": null,
+        "stars": 7,
+        "forks": 0,
+        "url": "https://github.com/RacoonDog/gradle-validator"
+      },
+      {
+        "name": "meteor-ui-utils",
+        "description": "Meteorized dupe hunting mod, originally by FlorianMichael and Coderx-Gamer",
+        "stars": 4,
+        "forks": 1,
+        "url": "https://github.com/RacoonDog/meteor-ui-utils"
+      }
+    ],
+    "organizations": [
+      {
+        "login": "AstraeaDevelopment",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/196498636?v=4",
+        "description": null
+      }
+    ]
+  },
+  "florianmichael": {
+    "type": "success",
+    "username": "FlorianMichael",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/60033407?v=4",
+    "profileSummary": "A highly active and skilled developer with a focus on Java-based projects, particularly within the Minecraft modding community. Proficient in Java, Kotlin, Python, and JavaScript, demonstrated through 6,924 commits across 22 public repositories. Experienced in developing and maintaining popular repositories such as fabric-imgui-example-mod, UI-Utils-Reborn, and DietrichEvents2, reflecting expertise in game modification, event-driven systems, and API development. As an active member of organizations like ViaVersion, iwmedia, Cytooxien, ViaVersionAddons, and cactusmod, they have demonstrated a commitment to teamwork and community-driven development. Proven ability to create impactful projects, evidenced by 153 stars and 15 forks received on public repositories. Passionate about technology and committed to delivering high-quality code.",
+    "keySkills": [
+      "Minecraft Modding",
+      "Event-Driven Systems",
+      "API Development",
+      "Software Utilities"
+    ],
+    "languageInsights": [
+      {
+        "insight": "Proficient in Java, creating Minecraft mods, event systems, and API implementations.",
+        "language": "Java"
+      },
+      {
+        "insight": "Experienced in Kotlin, demonstrated by the development of Gradle convention plugins and utilities.",
+        "language": "Kotlin"
+      },
+      {
+        "insight": "Capable in Python, as shown by the creation of tools for calculating Elo ratings from Git history.",
+        "language": "Python"
+      },
+      {
+        "insight": "Familiar with JavaScript, evidenced by contributions to school projects.",
+        "language": "JavaScript"
+      }
+    ],
+    "languageSummary": "A versatile developer skilled in Java, Kotlin, Python, and JavaScript, with a focus on Java for creating mods and utilities, complemented by Kotlin for build automation and Python for data analysis. This skillset allows for a wide range of application development.",
+    "developerScore": 88,
+    "scoreBreakdown": {
+      "commitActivity": {
+        "reasoning": "With 6,924 commits, the developer demonstrates a strong and consistent dedication to their projects, reflecting a high level of productivity and engagement.",
+        "value": 95
+      },
+      "communityInfluence": {
+        "reasoning": "Membership in multiple organizations, including ViaVersion and Cytooxien, demonstrates active engagement and collaboration within the open-source community.",
+        "value": 85
+      },
+      "languageDiversity": {
+        "reasoning": "Proficiency in Java, Kotlin, Python, and JavaScript showcases a versatile skillset applicable to a range of development tasks and environments.",
+        "value": 80
+      },
+      "repositoryImpact": {
+        "reasoning": "With 153 stars and 15 forks across their repositories, this developer has demonstrated a clear ability to create projects that are both valued and built upon by the community.",
+        "value": 92
+      }
+    },
+    "stats": {
+      "commits": 6924,
+      "repos": 22,
+      "stars": 153,
+      "forks": 15
+    },
+    "topRepos": [
+      {
+        "name": "fabric-imgui-example-mod",
+        "description": "Example Fabric mod which includes Dear ImGui",
+        "stars": 42,
+        "forks": 5,
+        "url": "https://github.com/FlorianMichael/fabric-imgui-example-mod"
+      },
+      {
+        "name": "UI-Utils-Reborn",
+        "description": "Fabric mod for testing duplication exploits",
+        "stars": 22,
+        "forks": 0,
+        "url": "https://github.com/FlorianMichael/UI-Utils-Reborn"
+      },
+      {
+        "name": "DietrichEvents2",
+        "description": "One of the fastest Java event systems in the world using compiler optimizations, which still has a lot of features",
+        "stars": 21,
+        "forks": 1,
+        "url": "https://github.com/FlorianMichael/DietrichEvents2"
+      },
+      {
+        "name": "AsmFabricLoader",
+        "description": "A series of cursed Fabric hacks and utilities which break everything.",
+        "stars": 15,
+        "forks": 1,
+        "url": "https://github.com/FlorianMichael/AsmFabricLoader"
+      },
+      {
+        "name": "CheckHost4J",
+        "description": "Java implementation of the check-host.net API",
+        "stars": 12,
+        "forks": 1,
+        "url": "https://github.com/FlorianMichael/CheckHost4J"
+      }
+    ],
+    "organizations": [
+      {
+        "login": "ViaVersion",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42077435?v=4",
+        "description": "Connect to Minecraft with different versions"
+      },
+      {
+        "login": "iwmedia",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54965767?v=4",
+        "description": ""
+      },
+      {
+        "login": "Cytooxien",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65256160?v=4",
+        "description": "Minecraft Java Edition Network"
+      },
+      {
+        "login": "ViaVersionAddons",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/148668729?v=4",
+        "description": "Organization for unofficial but supported Via addons"
+      },
+      {
+        "login": "cactusmod",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/150591352?v=4",
+        "description": "The creators of Cactus Mod. We develop cool things for our favorite block game."
+      }
+    ]
+  },
+  "meteordevelopment": {
+    "type": "success",
+    "username": "MeteorDevelopment",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/73897938?v=4",
+    "profileSummary": "MeteorDevelopment is a dynamic open-source organization focused on Minecraft utility modifications and associated tools. With 18 public repositories, the organization has garnered significant community interest, evidenced by 3,094 stars and 1,299 forks. Their projects include 'meteor-client,' a popular Minecraft utility mod, 'orbit,' an extremely fast event system, and 'pulsar,' a GUI framework for Java, demonstrating their commitment to high-performance and user-friendly solutions. They leverage Java, Go, GLSL, Kotlin and TypeScript to deliver innovative and impactful software.",
+    "keySkills": [
+      "Game Modification",
+      "GUI Development",
+      "Event-Driven Systems",
+      "Minecraft Utilities"
+    ],
+    "languageInsights": [
+      {
+        "insight": "Demonstrates proficiency in Java through the development of Minecraft utility mods, GUI frameworks, and NBT libraries.",
+        "language": "Java"
+      },
+      {
+        "insight": "Proficient in building authentication servers and backend APIs using Go.",
+        "language": "Go"
+      },
+      {
+        "insight": "Utilizes GLSL for creating shaders and rendering APIs.",
+        "language": "GLSL"
+      },
+      {
+        "insight": "Contributes to GUI frameworks using Kotlin, showcasing expertise in modern UI development.",
+        "language": "Kotlin"
+      },
+      {
+        "insight": "Experienced in front-end development with TypeScript, building websites and user interfaces.",
+        "language": "TypeScript"
+      }
+    ],
+    "languageSummary": "MeteorDevelopment exhibits proficiency across a spectrum of languages, including Java for game modifications and utility tools, Go for backend services, GLSL for rendering, Kotlin for GUI frameworks, and TypeScript for front-end development. This versatility enables them to create comprehensive and high-performance applications across diverse domains.",
+    "developerScore": 86,
+    "scoreBreakdown": {
+      "commitActivity": {
+        "reasoning": "While the organization hasn't directly committed code, the presence of numerous actively maintained repositories suggests ongoing efforts and contributions in other forms, such as code review, issue management, and community support.",
+        "value": 50
+      },
+      "communityInfluence": {
+        "reasoning": "The absence of organization memberships suggests a primary focus on building and maintaining their own independent projects, fostering a dedicated community around their specific tools and utilities.",
+        "value": 65
+      },
+      "languageDiversity": {
+        "reasoning": "The organization demonstrates proficiency in a diverse range of languages, including Java, Go, GLSL, Kotlin, and TypeScript, indicating a versatile skill set capable of tackling various aspects of software development.",
+        "value": 85
+      },
+      "repositoryImpact": {
+        "reasoning": "With 3,094 stars and 1,299 forks across their repositories, MeteorDevelopment has demonstrated a clear ability to create projects that are both valued and built upon by the community.",
+        "value": 95
+      }
+    },
+    "stats": {
+      "commits": 0,
+      "repos": 18,
+      "stars": 3094,
+      "forks": 1299
+    },
+    "topRepos": [
+      {
+        "name": "meteor-client",
+        "description": "Based Minecraft utility mod.",
+        "stars": 2740,
+        "forks": 1113,
+        "url": "https://github.com/MeteorDevelopment/meteor-client"
+      },
+      {
+        "name": "meteor-addon-template",
+        "description": "A template project to help people use the Meteor Client Addon API.",
+        "stars": 116,
+        "forks": 120,
+        "url": "https://github.com/MeteorDevelopment/meteor-addon-template"
+      },
+      {
+        "name": "orbit",
+        "description": "Extremely fast event system.",
+        "stars": 58,
+        "forks": 12,
+        "url": "https://github.com/MeteorDevelopment/orbit"
+      },
+      {
+        "name": "starscript",
+        "description": "Fast text formatting language for Java.",
+        "stars": 49,
+        "forks": 9,
+        "url": "https://github.com/MeteorDevelopment/starscript"
+      },
+      {
+        "name": "pulsar",
+        "description": "GUI framework for Java using LWJGL3.",
+        "stars": 24,
+        "forks": 3,
+        "url": "https://github.com/MeteorDevelopment/pulsar"
+      }
+    ],
+    "organizations": []
+  },
+  "minegame158": {
+    "type": "success",
+    "username": "MineGame158",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/131569846?v=4",
+    "profileSummary": "An emerging developer with a foundational presence on GitHub. Currently focusing on establishing a development portfolio and exploring opportunities for open-source contributions. Eager to build impactful projects and collaborate within the broader developer community. Dedicated to expanding technical skills and contributing to innovative solutions.",
+    "keySkills": [
+      "Software Development",
+      "Open Source Contribution",
+      "Project Management"
+    ],
+    "languageInsights": [],
+    "languageSummary": "The developer has not yet made contributions in any specific language. Further contributions would be required to assess the developer's proficiency and versatility across different programming languages.",
+    "developerScore": 5,
+    "scoreBreakdown": {
+      "commitActivity": {
+        "reasoning": "With 0 commits, the developer is in the early stages of building their commit history and demonstrating consistent activity.",
+        "value": 0
+      },
+      "communityInfluence": {
+        "reasoning": "The developer is not currently affiliated with any listed organizations, suggesting a primary focus on individual projects and self-directed learning.",
+        "value": 5
+      },
+      "languageDiversity": {
+        "reasoning": "The developer has not yet demonstrated proficiency in any specific programming languages on GitHub, indicating an opportunity to explore and diversify their skill set.",
+        "value": 5
+      },
+      "repositoryImpact": {
+        "reasoning": "The developer has not yet received stars or forks, presenting an opportunity to build impactful projects that resonate with the community.",
+        "value": 10
+      }
+    },
+    "stats": {
+      "commits": 0,
+      "repos": 0,
+      "stars": 0,
+      "forks": 0
+    },
+    "topRepos": [],
+    "organizations": []
+  }
+}
