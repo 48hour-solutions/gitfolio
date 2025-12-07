@@ -1,59 +1,242 @@
-## GitFolio ✨
+<div align="center">
+  <h1>GitFolio</h1>
+  <p>Universal GitHub portfolio generator and developer search engine powered by AI</p>
+</div>
 
-An AI-powered portfolio generator for your GitHub profile 🚀
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat&logo=tailwind-css&logoColor=white">
+  <img src="https://img.shields.io/badge/Firebase_Genkit-1.8-FFCA28?style=flat&logo=firebase&logoColor=black">
+  <img src="https://img.shields.io/badge/Google_Gemini-2.0-8E75B2?style=flat&logo=google&logoColor=white">
+</p>
 
-### **Profile Overview 🧾📊**
+<div align="center">
+  <h2>Overview</h2>
+</div>
 
-| Feature | Description |
-| :--- | :--- |
-| **Narrative Professional Summary** 📝 | An advanced AI analyzes a developer's entire public footprint—code, commit patterns, and repository themes—to generate a professional, narrative-style summary that reads like a high-quality bio. |
-| **Holistic Developer Score** 💯 | A unique "Developer Score" (0-100) is calculated to holistically evaluate a profile's impact, considering commit activity, repository quality, and community validation (stars/forks). The score is fully auditable with a detailed breakdown. |
-| **Automated Skill & Language Analysis** 🧠 | The AI goes beyond simply listing languages. It infers high-level skills (e.g., "API Design," "Game Development") from repository content and provides concise insights into the developer's demonstrated experience with their top languages. |
-| **Intelligent Data Aggregation** 🧹 | The system intelligently processes all of a user's repositories, filtering out forked projects and non-programming languages (e.g., Markdown, CSS) to provide clean, meaningful statistics on their original work. |
+<div align="center">
+  <p>GitFolio is an intelligent developer portfolio generator that leverages AI to transform raw GitHub data into professional, shareable profiles. It goes beyond simple statistics by analyzing coding styles, domain expertise, and technical strengths using Google's Gemini models via Firebase Genkit. Additionally, it features a natural language search engine to find developers based on specific skills and experiences.</p>
+</div>
 
-### **Developer Search 🔍🎯**
+<div align="center">
+  <h2>Core Features</h2>
+</div>
 
-A powerful tool for recruiters and team leads to find ideal candidates within the GitFolio database.
+<div align="center">
+<table>
+  <tr>
+    <th>Feature</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>AI Profile Synthesis</td>
+    <td>Converts raw GitHub data into structured professional profiles with inferred skills</td>
+  </tr>
+  <tr>
+    <td>Smart Developer Search</td>
+    <td>Natural language search engine for finding candidates based on complex criteria</td>
+  </tr>
+  <tr>
+    <td>Tech Stack Analysis</td>
+    <td>Automatically identifies top languages, frameworks, and coding patterns</td>
+  </tr>
+  <tr>
+    <td>Keyword Extraction</td>
+    <td>Intelligent parsing of job descriptions and queries to isolate technical terms</td>
+  </tr>
+  <tr>
+    <td>Instant Report Generation</td>
+    <td>Creates shareable, professionally designed portfolio pages on demand</td>
+  </tr>
+</table>
+</div>
 
-| Feature | Description |
-| :--- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Natural Language Search Engine** 💬 | Go beyond simple keyword matching. Users can describe their ideal candidate in conversational language (e.g., "Find me a Python developer who has worked with automation tools and has experience with tensorflow"). |
-| **AI-Driven Candidate Ranking** 🏆 | A multi-stage AI pipeline first extracts key technical concepts from the query, then analyzes and ranks the most suitable candidates from the entire database. |
-| **Personalized Match Reasoning** 🤔 | For each search result, the AI provides a concise, one-sentence justification explaining *why* the candidate is a strong match, citing specific skills or project experience relevant to the original query. |
+<div align="center">
+  <h2>AI Capabilities</h2>
+</div>
 
-### **Professional Export & Sharing 🚀📤**
+<div align="center">
+  <p>Powered by Firebase Genkit and Google Gemini, GitFolio employs specialized AI flows.</p>
+</div>
 
-GitFolio provides tangible assets that can be used in portfolios, resumes, and professional profiles.
+<div align="center">
+<table>
+  <tr>
+    <th>Flow Name</th>
+    <th>Description</th>
+    <th>Input/Output</th>
+  </tr>
+  <tr>
+    <td><code>synthesizeGithubProfileFlow</code></td>
+    <td>Analyzes repositories and activity to determine domain expertise and coding style</td>
+    <td>GitHub Data &rarr; Structured Profile</td>
+  </tr>
+  <tr>
+    <td><code>findDevelopersFlow</code></td>
+    <td>Ranks developer candidates with reasoning based on query alignment</td>
+    <td>Query & Profiles &rarr; Ranked Candidates</td>
+  </tr>
+  <tr>
+    <td><code>extractKeywordsFlow</code></td>
+    <td>Extracts technical skills and concepts from natural language input</td>
+    <td>User Query &rarr; Keywords List</td>
+  </tr>
+</table>
+</div>
 
-| Feature | Description |
-| :--- | :--- |
-| **Self-Contained HTML Export** 📄 | Download a profile as a single, fully interactive HTML file. All styling, data, and even pop-up dialogs are preserved, creating a perfect offline artifact for a portfolio or to send to recruiters. |
-| **GitHub-Ready Markdown Generation** 📝 | Generate a complete, well-structured Markdown report of the profile, perfect for pasting directly into a `README.md`. The tool includes a live preview and a one-click copy button. |
-| **Clean, Shareable Profile URLs** 🔗 | Every generated profile is accessible via a clean, semantic URL (`/username`), making it simple to share a live, always-up-to-date professional summary. |
+<div align="center">
+  <h2>Installation</h2>
+</div>
 
------
+<div align="center">
+  <p><strong>Prerequisites</strong></p>
+  <p>Node.js 18+, GitHub Personal Access Token, Google GenAI API Key</p>
+</div>
 
-### **Environment Setup 🛠️⚙️**
+<div align="center">
+  ```bash
+  git clone <repository-url>
+  cd nextn
+  npm install
+  ```
+</div>
 
-**Example `.env` file:**
+<div align="center">
+  <h2>Configuration</h2>
+</div>
 
-```env
-# GitHub Personal Access Token
-# Required to increase the API rate limit for fetching user and repository data from GitHub.
-# Generate one at: https://github.com/settings/tokens
-GITHUB_TOKEN="ghp_YourGitHubTokenHere"
+<div align="center">
+  <p>Create a <code>.env.local</code> file in the root directory with the following variables:</p>
+</div>
 
-# Google Gemini API Key
-# Required for all AI-powered features, including profile synthesis and developer search.
-# Get your key from Google AI Studio: https://aistudio.google.com/app/apikey
-GEMINI_API_KEY="YourGeminiApiKeyHere"
-```
+<div align="center">
+  ```bash
+  GITHUB_TOKEN=your_github_token_here
+  GOOGLE_GENAI_API_KEY=your_gemini_api_key_here
+  ```
+</div>
 
-## Showcase 🌟
+<div align="center">
+  <h2>Usage</h2>
+</div>
 
-![image](https://github.com/user-attachments/assets/93cdc056-ce00-4e6e-adff-f08bdd803ad3)
-![image](https://github.com/user-attachments/assets/693bc7d7-f293-486a-b9f7-ecd6a0296fc7)
-![image](https://github.com/user-attachments/assets/b51b8904-c68b-4cc0-ba85-df7d04bc5c36)
-![image](https://github.com/user-attachments/assets/7eaefff6-bcb9-4712-810e-3e8e66e1c6a2)
+<div align="center">
+  <p>Start the development server to use the application:</p>
+</div>
 
+<div align="center">
+  ```bash
+  npm run dev
+  ```
+</div>
 
+<div align="center">
+  <p>Start the Genkit Developer UI to inspect AI flows:</p>
+</div>
+
+<div align="center">
+  ```bash
+  npm run genkit:dev
+  ```
+</div>
+
+<div align="center">
+  <h2>Development</h2>
+</div>
+
+<div align="center">
+  ```bash
+  # Run type checking
+  npm run typecheck
+
+  # Lint code
+  npm run lint
+
+  # Build for production
+  npm run build
+  ```
+</div>
+
+<div align="center">
+  <h2>Architecture</h2>
+</div>
+
+<div align="center">
+  <p>The application is built using the Next.js App Router and integrated with Firebase Genkit for AI operations.</p>
+</div>
+
+<div align="center">
+<table>
+  <tr>
+    <th>Component</th>
+    <th>Tech Stack</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>Next.js 15, React, Tailwind CSS</td>
+    <td>Responsive UI with Radix UI components</td>
+  </tr>
+  <tr>
+    <td>AI Engine</td>
+    <td>Firebase Genkit, Google Gemini</td>
+    <td>Server-side AI flows for data analysis</td>
+  </tr>
+  <tr>
+    <td>Data Source</td>
+    <td>GitHub API</td>
+    <td>Fetches user repositories and contributions</td>
+  </tr>
+  <tr>
+    <td>Deployment</td>
+    <td>Firebase App Hosting</td>
+    <td>Scalable serverless hosting configuration</td>
+  </tr>
+</table>
+</div>
+
+<div align="center">
+  <h2>Contributing</h2>
+</div>
+
+<div align="center">
+  <p>Contributions are welcome. Please ensure all new features are accompanied by appropriate tests.</p>
+</div>
+
+<div align="center">
+  <h2>License</h2>
+</div>
+
+<div align="center">
+  <p>Private / Proprietary</p>
+</div>
+
+<div align="center">
+  <h2>Acknowledgments</h2>
+</div>
+
+<div align="center">
+<table>
+  <tr>
+    <th>Resource</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td><a href="https://nextjs.org">Next.js</a></td>
+    <td>React Framework</td>
+  </tr>
+  <tr>
+    <td><a href="https://firebase.google.com/docs/genkit">Firebase Genkit</a></td>
+    <td>AI Integration</td>
+  </tr>
+  <tr>
+    <td><a href="https://ui.shadcn.com">shadcn/ui</a></td>
+    <td>UI Components</td>
+  </tr>
+  <tr>
+    <td><a href="https://lucide.dev">Lucide</a></td>
+    <td>Icons</td>
+  </tr>
+</table>
+</div>
