@@ -1,59 +1,119 @@
-## GitFolio ✨
+<div align="center">
+  <h1>GitFolio</h1>
+  <p>An AI-powered portfolio generator for your GitHub profile</p>
+</div>
 
-An AI-powered portfolio generator for your GitHub profile 🚀
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-TypeScript-blue" alt="Language">
+  <img src="https://img.shields.io/badge/Framework-Next.js-black" alt="Framework">
+  <img src="https://img.shields.io/badge/Platform-Firebase-orange" alt="Platform">
+</p>
 
-### **Profile Overview 🧾📊**
+<div align="center">
+  <h2>Overview</h2>
+  <p>GitFolio is an advanced tool that leverages artificial intelligence to analyze GitHub profiles and generate professional portfolios. By examining code, commit patterns, and repository structures, it creates narrative summaries and detailed developer scores.</p>
+  <p>Built with Next.js and Firebase Genkit, it offers a seamless way to visualize developer achievements, understand skill sets through AI inference, and export these insights for professional use.</p>
+</div>
 
-| Feature | Description |
-| :--- | :--- |
-| **Narrative Professional Summary** 📝 | An advanced AI analyzes a developer's entire public footprint—code, commit patterns, and repository themes—to generate a professional, narrative-style summary that reads like a high-quality bio. |
-| **Holistic Developer Score** 💯 | A unique "Developer Score" (0-100) is calculated to holistically evaluate a profile's impact, considering commit activity, repository quality, and community validation (stars/forks). The score is fully auditable with a detailed breakdown. |
-| **Automated Skill & Language Analysis** 🧠 | The AI goes beyond simply listing languages. It infers high-level skills (e.g., "API Design," "Game Development") from repository content and provides concise insights into the developer's demonstrated experience with their top languages. |
-| **Intelligent Data Aggregation** 🧹 | The system intelligently processes all of a user's repositories, filtering out forked projects and non-programming languages (e.g., Markdown, CSS) to provide clean, meaningful statistics on their original work. |
+<div align="center">
+  <h2>Core Features</h2>
+  <table>
+    <tr><th>Feature</th><th>Description</th></tr>
+    <tr><td>Narrative Professional Summary</td><td>Generates bio-like summaries by analyzing public footprint and commit history.</td></tr>
+    <tr><td>Holistic Developer Score</td><td>Calculates a 0-100 score based on commit activity, impact, and community influence.</td></tr>
+    <tr><td>Skill & Language Analysis</td><td>Infers high-level skills and provides insights into language proficiency.</td></tr>
+    <tr><td>Intelligent Data Aggregation</td><td>Filters forks and non-code repositories to provide accurate statistics.</td></tr>
+  </table>
+</div>
 
-### **Developer Search 🔍🎯**
+<div align="center">
+  <h2>Advanced Capabilities</h2>
+  <table>
+    <tr><th>Capability</th><th>Details</th></tr>
+    <tr><td>Developer Search</td><td>Natural language search to find candidates with AI-driven ranking and reasoning.</td></tr>
+    <tr><td>Export Options</td><td>Download profiles as self-contained HTML or generate Markdown reports.</td></tr>
+  </table>
+</div>
 
-A powerful tool for recruiters and team leads to find ideal candidates within the GitFolio database.
+<div align="center">
+  <h2>Installation</h2>
+  <p>Ensure Node.js is installed. Clone the repository and install dependencies.</p>
+</div>
 
-| Feature | Description |
-| :--- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Natural Language Search Engine** 💬 | Go beyond simple keyword matching. Users can describe their ideal candidate in conversational language (e.g., "Find me a Python developer who has worked with automation tools and has experience with tensorflow"). |
-| **AI-Driven Candidate Ranking** 🏆 | A multi-stage AI pipeline first extracts key technical concepts from the query, then analyzes and ranks the most suitable candidates from the entire database. |
-| **Personalized Match Reasoning** 🤔 | For each search result, the AI provides a concise, one-sentence justification explaining *why* the candidate is a strong match, citing specific skills or project experience relevant to the original query. |
+<div align="center">
+  ```bash
+  npm install
+  ```
+</div>
 
-### **Professional Export & Sharing 🚀📤**
+<div align="center">
+  <h2>Usage</h2>
+  <p>Start the Next.js development server.</p>
+</div>
 
-GitFolio provides tangible assets that can be used in portfolios, resumes, and professional profiles.
+<div align="center">
+  ```bash
+  npm run dev
+  ```
+</div>
 
-| Feature | Description |
-| :--- | :--- |
-| **Self-Contained HTML Export** 📄 | Download a profile as a single, fully interactive HTML file. All styling, data, and even pop-up dialogs are preserved, creating a perfect offline artifact for a portfolio or to send to recruiters. |
-| **GitHub-Ready Markdown Generation** 📝 | Generate a complete, well-structured Markdown report of the profile, perfect for pasting directly into a `README.md`. The tool includes a live preview and a one-click copy button. |
-| **Clean, Shareable Profile URLs** 🔗 | Every generated profile is accessible via a clean, semantic URL (`/username`), making it simple to share a live, always-up-to-date professional summary. |
+<div align="center">
+  <p>To work with Genkit flows locally:</p>
+</div>
 
------
+<div align="center">
+  ```bash
+  npm run genkit:dev
+  ```
+</div>
 
-### **Environment Setup 🛠️⚙️**
+<div align="center">
+  <h2>Configuration</h2>
+  <p>Create a .env file in the root directory with the following keys.</p>
+</div>
 
-**Example `.env` file:**
+<div align="center">
+  ```env
+  GITHUB_TOKEN="your_github_token"
+  GEMINI_API_KEY="your_gemini_api_key"
+  ```
+</div>
 
-```env
-# GitHub Personal Access Token
-# Required to increase the API rate limit for fetching user and repository data from GitHub.
-# Generate one at: https://github.com/settings/tokens
-GITHUB_TOKEN="ghp_YourGitHubTokenHere"
+<div align="center">
+  <h2>Development</h2>
+  <p>Run code quality checks and type verification.</p>
+</div>
 
-# Google Gemini API Key
-# Required for all AI-powered features, including profile synthesis and developer search.
-# Get your key from Google AI Studio: https://aistudio.google.com/app/apikey
-GEMINI_API_KEY="YourGeminiApiKeyHere"
-```
+<div align="center">
+  ```bash
+  npm run lint
+  npm run typecheck
+  ```
+</div>
 
-## Showcase 🌟
+<div align="center">
+  <h2>Architecture</h2>
+  <p>GitFolio utilizes a modern stack centered around Next.js and AI services.</p>
+  <table>
+    <tr><th>Component</th><th>Technology</th><th>Responsibility</th></tr>
+    <tr><td>Frontend</td><td>Next.js 15, React, Tailwind</td><td>UI rendering, routing, and user interaction.</td></tr>
+    <tr><td>AI Engine</td><td>Firebase Genkit, Google Gemini</td><td>Profile synthesis, candidate ranking, and reasoning.</td></tr>
+    <tr><td>Data Handling</td><td>Server Actions, Zod</td><td>Fetching GitHub data and input validation.</td></tr>
+    <tr><td>Hosting</td><td>Firebase App Hosting</td><td>Deployment and scaling.</td></tr>
+  </table>
+</div>
 
-![image](https://github.com/user-attachments/assets/93cdc056-ce00-4e6e-adff-f08bdd803ad3)
-![image](https://github.com/user-attachments/assets/693bc7d7-f293-486a-b9f7-ecd6a0296fc7)
-![image](https://github.com/user-attachments/assets/b51b8904-c68b-4cc0-ba85-df7d04bc5c36)
-![image](https://github.com/user-attachments/assets/7eaefff6-bcb9-4712-810e-3e8e66e1c6a2)
+<div align="center">
+  <h2>Contributing</h2>
+  <p>Contributions are welcome. Please ensure all tests pass before submitting a pull request.</p>
+</div>
 
+<div align="center">
+  <h2>License</h2>
+  <p>This project is private and has no specified license.</p>
+</div>
 
+<div align="center">
+  <h2>Acknowledgments</h2>
+  <p>Powered by Next.js, Firebase, and Google Gemini. UI components by Radix UI and Lucide.</p>
+</div>
